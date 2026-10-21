@@ -1,0 +1,10 @@
+algoritmo "variaveis"
+var
+n1, n2, n3, s: inteiro
+
+escreva("Digite três números: ")
+leia(n1, n2, n3)
+s<-n1+n2+n3
+escreval("A soma é: ",s)
+
+fimalgoritmo
