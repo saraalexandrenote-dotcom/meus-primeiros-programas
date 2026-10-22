@@ -1,9 +1,10 @@
 Algoritmo "conversa_interativa"
 // 
 //  
-// DescriÁ„o   :
+// Descri√ß√£o   : Conversa interativa, em base do que venho apresendo na faculdade, criei este programa que solicita o nome do usu√°rio e faz perguntas sobre seus gostos pessoais, como cantor favorito, estilo musical, comida favorita e n√∫mero da sorte. Pr√°tica de declara√ß√£o de vari√°veis, entrada e sa√≠da de dados em Portugol.
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 20/10/2026
+
 Var
  nome : caractere
   cantor : caractere
@@ -11,28 +12,28 @@ Var
     sorte :caractere
     conhecer:caractere
 Inicio
- escreva ("Ol·, sou a Beatriz.Qual È o seu nome?")
+ escreva ("Ol√°, sou a Beatriz.Qual √© o seu nome?")
  leia (nome)
  
- escreva ("Ol·," ,nome, "!")
+ escreva ("Ol√°," ,nome, "!")
  
-    escreva ("Gostaria de saber um pouco sobre vocÍ. Qual cantor vocÍ gosta de ouvir? ")
+    escreva ("Gostaria de saber um pouco sobre voc√™. Qual cantor voc√™ gosta de ouvir? ")
     leia (cantor)
     
-    escreva ("Eu tambÈm ouÁo  ",cantor, "!",nome,".")
+    escreva ("Eu tamb√©m ou√ßo  ",cantor, "!",nome,".")
     
         
-          escreva ("E qual È a sua comida favorita?")
+          escreva ("E qual √© a sua comida favorita?")
           leia (comida)
           
-          escreva ("Faz um bom tempo que n„o como  " ,comida,)
+          escreva ("Faz um bom tempo que n√£o como  " ,comida,)
           
-          escreva("Qual È seu n˙mero da sorte?")
+          escreva("Qual √© seu n√∫mero da sorte?")
           leia (sorte)
           
           escreva("Que legal",nome,"!")
           
-          escreva("Eu preciso ir,podemos conversar amanh„?")
+          escreva("Eu preciso ir,podemos conversar amanh√£?")
           leia(conhecer)
           
           escreva("Certo " ,nome, " bye,bye:)")
